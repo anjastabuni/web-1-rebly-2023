@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar CSS Position</title>
+  </head>
+  <style>
+    .container {
+      overflow: auto;
+    }
+    .konten {
+      width: 50%;
+      margin: auto;
+    }
+    .sidenav {
+      width: 130px;
+      position: fixed;
+      z-index: 1;
+      top: 20px;
+      left: 10px;
+      background: #eee;
+      overflow-x: hidden;
+      padding: 8px 0;
+    }
+
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #2196f3;
+      display: block;
+    }
+
+    .sidenav a:hover {
+      color: #064579;
+    }
+
+    img {
+      width: 480px;
+      height: 400px;
+      margin-top: 5px;
+      overflow: auto;
+      padding: 5px;
+    }
+    .img1 {
+      position: static;
+    }
+    .img2 {
+      position: relative;
+      top: -200px;
+      right: -400px;
+    }
+    .img3 {
+      position: absolute;
+      top: 560px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="sidenav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="konten">
+        <h1>Belajar CSS Position</h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis omnis vitae molestias hic impedit, dicta tenetur cumque quis sunt labore consequuntur animi sapiente id iure pariatur aut incidunt cupiditate enim natus odit? Similique
+        nostrum quam maiores recusandae itaque eligendi odio voluptas officiis non, rem iste corporis delectus aperiam! Similique veniam aliquam saepe nisi. Facilis quisquam nisi quibusdam vitae minima impedit veritatis dicta, eligendi
+        exercitationem aliquam enim aut, pariatur itaque ut debitis accusantium fuga similique officiis fugit ab! Ad voluptatibus dolorem reprehenderit porro ab, natus at, sint vitae doloremque beatae, neque animi architecto sequi iste
+        officia laudantium quo provident repellendus placeat.
+        <div class="img1">
+          <img src="https://img.freepik.com/free-photo/beatiful-bird-paradise-branch-cendrawasih-bird_488145-782.jpg?size=626&ext=jpg&uid=R85076105&ga=GA1.2.343787673.1668587818&semt=sph" alt="" />
+        </div>
+        <div class="img2">
+          <img src="https://img.freepik.com/free-photo/aerial-shot-wayag-islands-raja-ampat-west-papua-indonesia_181624-15719.jpg?size=626&ext=jpg&uid=R85076105&ga=GA1.2.343787673.1668587818&semt=sph" alt="" />
+        </div>
+        <div class="img3">
+          <img src="https://img.freepik.com/free-photo/beautiful-setting-sun-forest-mountain-landscape_181624-23715.jpg?size=626&ext=jpg&uid=R85076105&ga=GA1.2.343787673.1668587818&semt=ais" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

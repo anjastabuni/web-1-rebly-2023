@@ -1,0 +1,1 @@
+[{"nama":"rebly","gol_darah":"B"},{"nama":"manson","gol_darah":"AB"},{"nama":"mas","gol_darah":"B"},{"nama":"iko","gol_darah":"O"}]

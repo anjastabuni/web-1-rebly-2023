@@ -97,7 +97,8 @@ $karyawan =
             <th>Nama</th>
             <th>Alamat</th>
             <th>Jenis Kelamin</th>
-        </tr>
+        </tr>   
+        
         <?php
         foreach ($karyawan as $key => $value) {
         ?>

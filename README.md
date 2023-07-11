@@ -1,6 +1,6 @@
 # Praktikum Web 1
 
-belajar pemrograman Web di platform (Codepolitan)[https://apps.codepolitan.com]
+belajar pemrograman Web di platform [codepolitan](https://apps.codepolitan.com)
 
 ## list yang di pelajari
 

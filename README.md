@@ -2,8 +2,11 @@
 
 belajar pemrograman Web di platform [codepolitan](https://apps.codepolitan.com)
 
-## list yang di pelajari
+## List Belajar
+materi yang di pelajari selama praktikum
 
+    ✅ Pengenalan pemrograman komputer
+    ✅ Algoritma dan pemrograman dasar
     ✅ HTML dan CSS3
     ✅ Javascript
     ✅ PHP

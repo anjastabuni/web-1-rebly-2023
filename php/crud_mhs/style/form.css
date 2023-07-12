@@ -1,0 +1,48 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 50%;
+  margin: auto;
+}
+.container form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 1px 5px 10px 3px rgba(72, 152, 255, 0.2);
+}
+.container h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #484848;
+}
+.label {
+  width: 20%;
+  float: left;
+  padding-top: 10px;
+}
+
+.input input,
+.alamat {
+  padding: 10px;
+  margin-top: 10px;
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+.alamat {
+  padding-top: 10px;
+}
+
+form button {
+  display: block;
+  padding: 10px;
+  margin-top: 50px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 2px;
+}
+form button:hover {
+  color: #000000;
+  cursor: pointer;
+}

@@ -1,0 +1,105 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Asap:wght@300;500&family=Candal&family=Lora&family=Montagu+Slab:wght@200;400&family=Montserrat+Subrayada&family=Montserrat:wght@200;500;700&family=Nunito+Sans:wght@300;500&family=Orbitron:wght@500&family=Patrick+Hand&family=Poppins:wght@300;600&family=Quicksand:wght@300&family=Raleway&display=swap");
+* {
+  font-family: "Poppins" sans-serif;
+} */
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+.container h1 {
+  text-align: center;
+}
+.container .tambah {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+
+  border-radius: 5px;
+  text-decoration: none;
+}
+.container .tambah:hover {
+  cursor: pointer;
+  color: black;
+}
+.container-lg {
+  background: rgba(72, 152, 255, 0.591);
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 10px;
+  overflow: auto;
+}
+.header {
+  padding: 5px;
+}
+.container-lg .tambah {
+  display: inline-block;
+  float: left;
+  margin-top: -1px;
+  margin-right: 50%;
+  font-weight: bold;
+}
+.search,
+.search-submit {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.search-submit {
+  background-color: #ccc;
+}
+.search-submit:hover {
+  background-color: #b1b1b1;
+  color: white;
+  cursor: pointer;
+}
+.container-lg table {
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+th,
+td {
+  font-family: "Raleway" sans-serif;
+  text-align: left;
+  padding: 16px;
+}
+th {
+  background-color: black;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table td a {
+  text-decoration: none;
+}
+
+.edit,
+.hapus {
+  display: inline-block;
+  padding: 10px;
+  margin: 3px;
+  color: white;
+  border-radius: 2px;
+}
+.edit {
+  background-color: rgb(174, 174, 174);
+}
+.hapus {
+  background-color: rgba(223, 3, 3, 0.79);
+}
+.edit:hover,
+.hapus:hover {
+  color: black;
+}
